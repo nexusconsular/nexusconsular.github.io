@@ -1,0 +1,439 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+html{
+     scroll-behavior: smooth;
+}
+
+#profile_picture {
+  display: block;
+  width:200px;
+  margin: 50px auto;
+}
+
+#icons {
+     id = "icons";
+     display:inline-block;
+     margin: 15px;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     float: left;
+}
+
+#mainPicture {
+     background-image: url(images/mainpage.png);
+     background-size: cover;
+     background-attachment: fixed;
+     display: block;
+     height: 900px;
+}
+#mainPictureTer {
+     background-image: url(images/terbackground.png);
+     background-size: cover;
+     background-attachment: fixed;
+     display: block;
+
+}
+#mainPlayground{
+     id="mainPlayground";
+     display: block;
+     height: 100%;
+     width: 100%;
+     background-color: black;
+}
+
+#PGscreen2
+{
+     id="mainPlayground";
+     display: none;
+     height: 100%;
+     width: 100%;
+     background-color: #6283a8;
+     transition: all 5s ease-in;
+}
+
+a:link {
+  color: #a3e3f0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #bda9d4;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+mark.green
+{
+     color:#00ff44;
+     background: none;
+}
+mark.red
+{
+     color:#e9773f;
+     background: none;
+}
+.button1
+{
+     background: none;
+     border: none;
+     display: inline-block;
+     cursor: pointer;
+     margin: 30px auto;
+     font: 50px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+     color: #00fe29;
+}
+
+.button1:hover
+{
+     color: #65e6f7;
+}
+.button2
+{
+     background-color: linear-gradient(90deg, #7da0db, #00ff44);
+     background-clip: text;
+     color: transparent;
+     font: 25px Monaco,"Times New Roman",monospace;
+     font-weight: bold;
+     cursor: pointer;
+     width: 100%;
+     height: 100%;
+     border: none;
+}
+.button2:hover
+{
+     color: red;
+}
+#button3
+{
+     background-color: linear-gradient(90deg, #7da0db, #00ff44);
+     background-clip: text;
+     color: transparent;
+     font: 25px Monaco,"Times New Roman",monospace;
+     font-weight: bold;
+     cursor: pointer;
+     width: 100%;
+     height: 100%;
+     border: none;
+}
+.button4 {
+     align-self: center;
+     background-color: transparent 100%;
+     height: auto;
+     width: auto;
+     color: #48567e;
+     font: 25px Monaco,"Times New Roman",monospace;
+
+}
+
+.gradientText {
+     background-image: linear-gradient(90deg, #7da0db, #00ff44);
+     background-clip: text;
+     color: transparent;
+}
+
+textBackground {
+     display: block;
+     background-color: #393340;
+     height: auto;
+     background-image: url(images/secondpage.png);
+     background-size: cover;
+     background-attachment: fixed;
+     backface-visibility: visible;
+}
+
+headerBackground {
+     display:block;
+     background-color: #1d1e21;
+     height: auto;
+     margin: auto;
+}
+
+
+header_font {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin: auto;
+  font: 50px Monaco,"Times New Roman",monospace;
+  color: white;
+}
+
+regular_text {
+     display: block;
+     width: auto;
+     text-align: center;
+     margin: auto;
+     font: 25px Monaco,"Times New Roman",monospace;
+     color: white;
+   }
+header_font_smaller {
+     display: block;
+     width: auto;
+     text-align: center;
+     margin: auto;
+     font: 25px Monaco,"Times New Roman",monospace;
+     color: white;
+   }
+
+mainFontGreen {
+  display: block;
+  width: 40% ;
+  align-self: center;
+  margin:auto;
+  font: 25px Monaco,"Times New Roman",monospace;
+  color: #00ff44;
+}
+
+mainFontBlue {
+     display: block;
+     width: 40% ;
+     align-self: center;
+     margin:auto;
+     font: 25px Monaco,"Times New Roman",monospace;
+     color: #4c41ec;
+   }
+
+mainFontGreenNC {
+     display: block;
+     width: 700px;
+     font: 25px Monaco,"Times New Roman",monospace;
+     color: #00ff44;
+}
+
+mainFontWhite {
+  display: block;
+  width: 700px;
+  margin:auto;
+  font: 25px Monaco,"Times New Roman",monospace;
+  color: white;
+}
+mainFontWhiteT{
+  display: block;
+  width: 700px;
+  margin:auto;
+  font: 25px Monaco,"Times New Roman",monospace;
+  color: white;
+  opacity: 0;
+}
+
+
+.fade-in-text {
+  display: block;
+  animation: fadeIn linear 3s ;
+     -webkit-animation: fadeIn linear 3s;
+     -moz-animation: fadeIn linear 2s;
+     -o-animation: fadeIn linear 2s;
+     -ms-animation: fadeIn linear 2s;
+     animation-fill-mode: forwards;
+}
+.fade-in-text2 {
+  display: block;
+  animation: fadeIn linear 3s ;
+     -webkit-animation: fadeIn linear 3s;
+     -moz-animation: fadeIn linear 3s;
+     -o-animation: fadeIn linear 3s;
+     -ms-animation: fadeIn linear 3s;
+     animation-fill-mode: forwards;
+     animation-delay: 2s;
+}
+.fade-in-text3 {
+  display: block;
+  animation: fadeIn linear 3s ;
+     -webkit-animation: fadeIn linear 3s;
+     -moz-animation: fadeIn linear 3s;
+     -o-animation: fadeIn linear 3s;
+     -ms-animation: fadeIn linear 3s;
+     animation-fill-mode: forwards;
+     animation-delay: 4s;
+}
+.fade-in-text4 {
+  display: block;
+  animation: fadeIn linear 3s ;
+     -webkit-animation: fadeIn linear 3s;
+     -moz-animation: fadeIn linear 3s;
+     -o-animation: fadeIn linear 3s;
+     -ms-animation: fadeIn linear 3s;
+     animation-fill-mode: forwards;
+     animation-delay: 6s;
+}
+.fade-in-text5 {
+  display: block;
+  animation: fadeIn linear 3s ;
+     -webkit-animation: fadeIn linear 3s;
+     -moz-animation: fadeIn linear 3s;
+     -o-animation: fadeIn linear 3s;
+     -ms-animation: fadeIn linear 3s;
+     animation-fill-mode: forwards;
+     animation-delay: 8s;
+}
+.fade-in-button {
+  display: block;
+  animation: fadeIn linear 3s ;
+     -webkit-animation: fadeIn linear 3s;
+     -moz-animation: fadeIn linear 3s;
+     -o-animation: fadeIn linear 3s;
+     -ms-animation: fadeIn linear 3s;
+     animation-fill-mode: forwards;
+     animation-delay: 10s;
+     opacity: 0;
+     height: auto;
+     width: auto;
+     color: #48567e;
+     font: 25px Monaco,"Times New Roman",monospace;
+}
+.left {
+     position: absolute;
+     right: 0px;
+     width: 300px;
+     border: 3px solid #73AD21;
+     padding: 10px;
+}
+.center {
+     margin: auto;
+     width: 854px;
+     padding: 10px;
+   }
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+mainFontWhiteCenter{
+     display: block;
+     align-self: center;
+     width: 100%;
+     margin:auto;
+     font: 50px Monaco,"Times New Roman",monospace;
+     color: white;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px)
+{
+     * {
+       margin:0px;
+       padding:0px;
+     }
+
+     #mainPicture {
+          display: block;
+          margin: auto;
+          height: 800px ;
+          width: 480px auto;
+     }
+     #icons {
+          display:block;
+          margin: 15px;
+          width: 30px;
+          height: 30px;
+     }
+     #profile_picture {
+       display: block;
+       width:150px;
+       margin: 50px auto;
+     }
+
+     #PGscreen2
+     {
+          id="mainPlayground";
+          display: none;
+          width: 100%;
+          background-color: #6283a8;
+          transition: all 5s ease-in;
+     }
+
+     .button1
+     {
+          display: inline-block;
+          margin: 30px auto;
+          font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+     }
+     .button1:hover
+     {
+          display: inline-block;
+          margin: 30px auto;
+          font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+
+     }
+
+     textBackground {
+          height: 1000px auto;
+          width: 480px auto;
+     }
+
+     headerBackground {
+          height: 1000px auto;
+          width: 480px auto;
+     }
+
+     header_font {
+       width: 400px;
+       margin: auto;
+       font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+     }
+     mainFontGreen {
+       width: 400px;
+       margin: auto;
+       font: 25px Monaco,"Times New Roman",monospace;
+     }
+     mainFontWhite {
+       width: 400px;
+       margin: auto;
+       font: 20px Monaco,"Times New Roman",monospace;
+     }
+     mainFontWhiteT{
+       width: 400px;
+       margin: auto;
+       font: 20px Monaco,"Times New Roman",monospace;
+       opacity: 0;
+     }
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*Insert your tablet CSS in here!
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    /*Insert your mobile CSS in here!*/
+}
+*/
+
+

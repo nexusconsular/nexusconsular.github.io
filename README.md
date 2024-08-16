@@ -1,0 +1,1 @@
+A website template for the Nexus JvS Jedi Consulars. It is open source, so please take it if you would like to use it. However, I will not be providing support.
